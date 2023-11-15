@@ -1,7 +1,7 @@
 ﻿using System;
 
 namespace Carfleet{
-    public class Car
+    public class Vehicle
     {
         #region private attributes
         private string _registration;
@@ -11,7 +11,7 @@ namespace Carfleet{
         #endregion private attributes
 
         #region public methods
-        public Car(string registration, string brand, string model, string chassisNumber)
+        public Vehicle(string registration, string brand, string model, string chassisNumber)
         {
             _registration = registration;
             _brand = brand;
@@ -27,7 +27,11 @@ namespace Carfleet{
             }
             set
             {
+<<<<<<< HEAD:Carfleet/Car.cs
                 _registration= value;
+=======
+                _registration = value;
+>>>>>>> 3805f8d1eb02f3f03f5de4e0568cee4dfb734356:Carfleet/Vehicle.cs
             }
         }
 
@@ -39,7 +43,11 @@ namespace Carfleet{
             }
             set
             {
+<<<<<<< HEAD:Carfleet/Car.cs
                 _brand= value;
+=======
+                _brand = value;
+>>>>>>> 3805f8d1eb02f3f03f5de4e0568cee4dfb734356:Carfleet/Vehicle.cs
             }
         }
 
@@ -51,7 +59,11 @@ namespace Carfleet{
             }
             set
             {
+<<<<<<< HEAD:Carfleet/Car.cs
                 _model= value;
+=======
+                _model = value;
+>>>>>>> 3805f8d1eb02f3f03f5de4e0568cee4dfb734356:Carfleet/Vehicle.cs
             }
         }
 
@@ -63,8 +75,17 @@ namespace Carfleet{
             }
             set
             {
+<<<<<<< HEAD:Carfleet/Car.cs
                 _chassisNumber= value;
+=======
+                _chassisNumber = value;
+>>>>>>> 3805f8d1eb02f3f03f5de4e0568cee4dfb734356:Carfleet/Vehicle.cs
             }
+        }
+
+        public override string ToString()
+        {
+            return this.Registration + " - " + this.Brand + " - " + this.Model + " - " + this.ChassisNumber;
         }
         #endregion public methods
     }

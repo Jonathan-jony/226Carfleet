@@ -1,23 +1,37 @@
 ﻿using System;
 
 namespace Carfleet{
-    public class Truck
+    public class Truck:Vehicle
     {
         #region private attributes
-        private string _registration;
-        private string _brand;
-        private string _model;
-        private string _chassisNumber;
+        private Boolean _isCarryingGoods = false;
         #endregion private attributes
 
         #region public methods
-        public Truck(string registration, string brand, string model, string chassisNumber)
+        public Truck(string registration, string brand, string model, string chassisNumber):base(registration, brand, model, chassisNumber)
+        {
+        }
+
+        public Boolean IsCarryingGoods
+        {
+            get
+            {
+                throw new NotImplementedException();
+            }
+            set
+            {
+                throw new NotImplementedException();
+            }
+        }
+
+        public override string ToString()
         {
             _registration = registration;
             _brand = brand;
             _model = model;
             _chassisNumber = chassisNumber;
         }
+<<<<<<< HEAD
 
         public string Registration
         {
@@ -66,6 +80,8 @@ namespace Carfleet{
                 _chassisNumber= value;
             }
         }
+=======
+>>>>>>> 3805f8d1eb02f3f03f5de4e0568cee4dfb734356
         #endregion public methods
     }
 }
