@@ -27,11 +27,7 @@ namespace Carfleet{
             }
             set
             {
-<<<<<<< HEAD:Carfleet/Car.cs
-                _registration= value;
-=======
                 _registration = value;
->>>>>>> 3805f8d1eb02f3f03f5de4e0568cee4dfb734356:Carfleet/Vehicle.cs
             }
         }
 
@@ -43,11 +39,7 @@ namespace Carfleet{
             }
             set
             {
-<<<<<<< HEAD:Carfleet/Car.cs
-                _brand= value;
-=======
                 _brand = value;
->>>>>>> 3805f8d1eb02f3f03f5de4e0568cee4dfb734356:Carfleet/Vehicle.cs
             }
         }
 
@@ -59,11 +51,7 @@ namespace Carfleet{
             }
             set
             {
-<<<<<<< HEAD:Carfleet/Car.cs
-                _model= value;
-=======
                 _model = value;
->>>>>>> 3805f8d1eb02f3f03f5de4e0568cee4dfb734356:Carfleet/Vehicle.cs
             }
         }
 
@@ -75,11 +63,7 @@ namespace Carfleet{
             }
             set
             {
-<<<<<<< HEAD:Carfleet/Car.cs
-                _chassisNumber= value;
-=======
                 _chassisNumber = value;
->>>>>>> 3805f8d1eb02f3f03f5de4e0568cee4dfb734356:Carfleet/Vehicle.cs
             }
         }
 
